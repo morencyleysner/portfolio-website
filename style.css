@@ -1,1 +1,45 @@
-css
+/* General Styles */
+body {
+    margin: 0px;
+}
+
+span {
+    color: white;
+}
+/* Navbar Section */
+.navbar-custom {
+    background-color: #323232 !important;
+}
+
+.navbar {
+    padding: 20px;
+}
+.nav-link {
+    color: white !important;
+    margin-right: 80px;
+}
+
+.linkedin {
+    width: 30px;
+}
+
+/* intro Section */
+.intro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: 600px;
+    background-color: #323232;
+}
+
+.sub-heading {
+    text-align: right;
+}
+
+/* About Me Section */
+.about-me {
+    display: flex;
+    align-items: center;
+}
+
