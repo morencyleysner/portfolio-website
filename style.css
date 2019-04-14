@@ -4,11 +4,45 @@ body {
 }
 
 h1 {
+    font-size: 70px;
+}
+
+h2 {
     font-size: 50px;
 }
 
-span {
+h3 {
+    font-size: 40px;
+}
+
+h4 {
+    font-size: 35px;
+}
+
+p {
+    font-size: 30px;
+}
+
+a {
+    font-size: 20px;
+}
+
+.custom {
     color: white;
+}
+
+.underline {
+    border-bottom: 4px solid grey;
+    padding-bottom: 5px; 
+}
+
+.underline-black {
+    border-bottom: 4px solid black;
+    padding-bottom: 5px; 
+}
+
+.bold {
+    font-weight: 500;
 }
 
 /* Navbar Section */
@@ -34,7 +68,7 @@ span {
     align-items: center;
     justify-content: center;
     width: auto;
-    height: 600px;
+    height: 900px;
     background-color: #323232;
 }
 
@@ -43,8 +77,64 @@ span {
 }
 
 /* About Me Section */
-.about-me {
+.wrapper {
     display: flex;
-    align-items: center;
+    justify-content: center;
 }
 
+.content {
+    width: 1180px;
+    padding-top: 50px;
+    padding-bottom: 150px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-heading {
+    width: 600px;
+}
+
+.thumbnail {
+    width: 275px;
+}
+
+
+/* Contact Form */
+.contact {
+    background-color: #5E5E5E;
+    color: white;
+}
+
+.contact-info {
+    width: 600px;
+}
+
+.form {
+    width: 450px;
+    padding-top: 85px;
+}
+
+input, textarea {
+    background-color: #BEBEBE !important;
+    border-radius: 0 !important;
+    resize: none;
+    border: 0 !important;
+    line-height: 2.5 !important;
+}
+
+button {
+    border-radius: 0 !important;
+    float: right;
+}
+
+/* Footer */
+.footer {
+    width: auto;
+    height: 150px;
+    background-color: black;
+    color: white;
+    padding: 50px 50px;
+}

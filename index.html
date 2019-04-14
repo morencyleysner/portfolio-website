@@ -2,7 +2,7 @@
 <html>
     <head>
         <title>Morency Leysner</title>
-        
+
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
@@ -11,42 +11,106 @@
     </head>
     <body>
   		<!-- Navbar -->
-      <nav class="navbar navbar-custom navbar-expand-lg navbar-dark bg-light ">
-				<!-- Logo -->
-				<a class="navbar-brand" href="#">Morency.</a>
-				<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
-				</button>
-				<div class="collapse navbar-collapse" id="navbarNav">
-					<!-- Nav Items -->
-					<ul class="navbar-nav mx-auto">
-						<li class="nav-item">
-							<a class="nav-link" href="#">About me.</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#">Work.</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#">Contact.</a>
-						</li>
-					</ul>
-				</div>
-				<img src="images/iconfinder_linkedin_circle_black_107159.png" class="linkedin" alt="logo">	
-			</nav>
-			<div class="intro">
-				<div class="description">
-						<h1 class="heading">
-							Creative
-							<span>Developer</span>
-						</h1>
-						<h5 class="sub-heading">
-							<span>Based in</span> 
-							Amsterdam
-						</h5>
+      	<nav class="navbar navbar-custom navbar-expand-lg navbar-dark bg-light ">
+			<!-- Logo -->
+			<a class="navbar-brand" href="#">Morency.</a>
+			<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<!-- Nav Items -->
+				<ul class="navbar-nav mx-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="#">About me.</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Work.</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Contact.</a>
+					</li>
+				</ul>
+			</div>
+			<img src="images/iconfinder_linkedin_circle_black_107159.png" class="linkedin" alt="logo">	
+		</nav>
+		<div class="intro">
+			<div class="description">
+				<h1 class="heading">
+					Creative
+					<span class="custom">Developer</span>
+				</h1>
+				<h4 class="sub-heading">
+					<span class="custom">Based in</span> 
+					Amsterdam
+				</h4>
+			</div>
+		</div>
+		<!-- About -->
+		<div class="wrapper">
+			<div class="content">
+				<div class="flex">
+					<div class="about-heading">
+						<!-- Paragraph -->
+						<h2>Hi, i'm Morency.</h2>
+						<h2>At last we finally meet.</h2>
+						<br>
+						<p>I'm a Front-end Developer & Symbiote. Being a Symbiote makes me a good listener. This is how I keep reinventing myself.</p>
+					</div>
+					<!-- Thumbnail -->
+					<img class="thumbnail" src="images/IMG_20180713_191033.jpg" alt="Me">
 				</div>
 			</div>
-			<div class="about-me">
-				<h3>About Me.</h3>
+		</div>
+		<!-- Expertise -->
+		<div class="wrapper">
+			<div class="content">
+				<div class="flex">
+					<h3><span class="underline">Expertise</span></h3>
+					<div class="about-heading">
+						<h3>Development</h3>
+						<br>
+						<p class="bold">Languages & Technologies:</p>
+						<p>HTML - CSS  - JavaScript - Bootstrap - Jquery - WordPress</p>
+						<br>
+						<p class="bold">Tools:</p>
+						<p>GitHub - Git - Terminal - Visual Studio Code</p>	
+					</div>
+				</div>
 			</div>
+		</div>
+		<!-- Contact -->
+		<div class="contact wrapper">
+			<div class="content">
+				<div class="flex">
+					<!-- Contact Info -->
+					<div class="contact-info">
+							<h3><span class="underline-black">Contact</span></h3>
+							<br>
+							<p>Feel free to reach out to me. <br>Pancakes & coffee on me.</p>
+							<br>
+							<p>mleysner@hotmail.com <br>+31 618279989</p>
+							<br>
+					</div>	
+					<!-- Form -->
+					<div class="form">
+						<form>
+							<div class="form-group">
+								<input type="text" class="form-control form-control-lg" id="name" placeholder="Full Name" name="name">
+							</div>
+							<div class="form-group">
+								<input type="email" class="form-control form-control-lg" id="email" placeholder="Email" name="email">
+							</div>
+							<div class="form-group">
+								<textarea type="text" class="form-control form-control-lg" id="message" placeholder="How can I help?" name="message"></textarea>
+							</div>
+							<button type="submit" class="btn btn-lg btn-rounded btn-dark">Submit</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer">
+			<p>Morency.</p>
+		</div>
     </body>
 </html>
