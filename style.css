@@ -3,6 +3,8 @@ body {
     margin: 0px;
 }
 
+html, body { overflow-x: hidden; }  /* Remove white border on the right */
+
 h1 {
     font-size: 70px;
 }
@@ -60,7 +62,11 @@ a {
 }
 
 .linkedin {
-    width: 30px;
+    width: 40px;
+}
+
+.github {
+    width: 40px;
 }
 
 /* intro Section */
@@ -109,7 +115,7 @@ a {
     
 }
 
-.test {
+.icon-holder {
     display: flex; 
     align-items: start;
 }
@@ -166,3 +172,14 @@ button {
     height: 35px;
     margin-right: 30px; 
 }
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .linkedin {
+        display: inline-block;
+    }
+    
+    .nav-link {
+        margin-right: 25px;
+    }
+  }
