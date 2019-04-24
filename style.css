@@ -5,33 +5,19 @@ body {
 
 html, body { overflow-x: hidden; }  /* Remove white border on the right */
 
-h1 {
-    font-size: 70px;
-}
+h1 { font-size: 70px; }
 
-h2 {
-    font-size: 50px;
-}
+h2 { font-size: 50px; }
 
-h3 {
-    font-size: 40px;
-}
+h3 { font-size: 40px; }
 
-h4 {
-    font-size: 35px;
-}
+h4 { font-size: 35px; }
 
-p {
-    font-size: 30px;
-}
+p { font-size: 30px; }
 
-a {
-    font-size: 20px;
-}
+a { font-size: 20px; }
 
-.custom {
-    color: white;
-}
+.custom { color: white; }
 
 .underline {
     border-bottom: 4px solid grey;
@@ -58,7 +44,7 @@ a {
 }
 .nav-link {
     color: white !important;
-    margin-right: 70px;
+    margin-right: 25px;
 }
 
 .linkedin {
@@ -175,11 +161,81 @@ button {
 
 /* Media Queries */
 @media (max-width: 768px) {
+    h1  {font-size: 39px; } 
+
+    h2  {font-size: 39px; } 
+
+    h3  {font-size: 34px; } 
+
+    h4 { font-size: 29px; } 
+
+    p { font-size: 22px; }
+
+    a { font-size: 18px; }
+     
     .linkedin {
-        display: inline-block;
+        width: 35px;
     }
-    
-    .nav-link {
-        margin-right: 25px;
+
+    .github {
+        width: 35px;
+    }
+    .intro {
+        height: 600px;
+    }
+
+    .navbar-toggler {
+        border: none;
+        outline: none;
+        
+    }
+
+    .flex {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-heading {
+        width: auto;
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .title {
+    text-align: center;
+    }
+
+    .sub-heading {
+        text-align: center;
+    }
+
+    .thumbnail {
+        margin: 50px auto;
+    }
+
+    .code-icon {
+        display: none;
+    }
+
+    .content {
+        padding-bottom: 30px;
+    }
+
+    .description {
+        font-size: 22px;
+    }
+    .contact-info {
+        width: auto;
+    }
+
+    .form {
+        width: 359px;
+        margin: 0 auto;
+        padding-top: 30px;
+    }
+
+    .footer {
+        height: 95px;
+        padding: 20px 20px;      
     }
   }
