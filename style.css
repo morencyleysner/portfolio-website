@@ -160,7 +160,9 @@ button {
 }
 
 /* Media Queries */
-@media (max-width: 768px) {
+@media only screen
+    and (max-width: 768px) 
+    and (orientation: landscape){
     h1  {font-size: 39px; } 
 
     h2  {font-size: 39px; } 
@@ -187,7 +189,6 @@ button {
     .navbar-toggler {
         border: none;
         outline: none;
-        
     }
 
     .flex {
