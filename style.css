@@ -161,82 +161,64 @@ button {
 
 /* Media Queries */
 @media only screen
-    and (max-width: 768px) 
-    and (orientation: landscape){
-    h1  {font-size: 39px; } 
+    and (max-width: 768px) {
+    
+        h1  {font-size: 39px; } 
 
-    h2  {font-size: 39px; } 
+        h2  {font-size: 39px; } 
 
-    h3  {font-size: 34px; } 
+        h3  {font-size: 34px; } 
 
-    h4 { font-size: 29px; } 
+        h4 { font-size: 29px; } 
 
-    p { font-size: 22px; }
+        p { font-size: 22px; }
 
-    a { font-size: 18px; }
-     
-    .linkedin {
-        width: 35px;
-    }
+        a { font-size: 18px; }
+        
+        .linkedin { width: 35px; }
 
-    .github {
-        width: 35px;
-    }
-    .intro {
-        height: 732px;
-    }
+        .github { width: 35px; }
+        
+        .intro { height: 732px; }
 
-    .navbar-toggler {
-        border: none;
-        outline: none;
-    }
+        .navbar-toggler {
+            border: none;
+            outline: none;
+        }
 
-    .flex {
-        flex-direction: column;
-        text-align: center;
-    }
+        .flex {
+            flex-direction: column;
+            text-align: center;
+        }
 
-    .about-heading {
-        width: auto;
-        text-align: center;
-        margin-top: 50px;
-    }
+        .about-heading {
+            width: auto;
+            text-align: center;
+            margin-top: 50px;
+        }
 
-    .title {
-    text-align: center;
-    }
+        .title { text-align: center; }
 
-    .sub-heading {
-        text-align: center;
-    }
+        .sub-heading { text-align: center; }
 
-    .thumbnail {
-        margin: 50px auto;
-    }
+        .thumbnail { margin: 50px auto; }
 
-    .code-icon {
-        display: none;
-    }
+        .code-icon { display: none; }
 
-    .content {
-        padding-bottom: 30px;
-    }
+        .content { padding-bottom: 30px; }
 
-    .description {
-        font-size: 22px;
-    }
-    .contact-info {
-        width: auto;
-    }
+        .description { font-size: 22px; }
+        
+        .contact-info { width: auto;}
 
-    .form {
-        width: 359px;
-        margin: 0 auto;
-        padding-top: 30px;
-    }
+        .form {
+            width: 359px;
+            margin: 0 auto;
+            padding-top: 30px;
+        }
 
-    .footer {
-        height: 95px;
-        padding: 20px 20px;      
-    }
+        .footer {
+            height: 95px;
+            padding: 20px 20px;      
+        }
   }
